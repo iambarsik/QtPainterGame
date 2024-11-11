@@ -3,12 +3,6 @@
 void Widget::SetStartValues()   {
     Settings.bDevMode = true;
     Settings.bEnglish = true;
-
-    QImage buf;
-    buf.load(":/images/logo.png");
-    ExampleLogo.setImage(buf);
-    ExampleLogo.setV(3, 3);
-    ExampleLogo.setField(SCREEN_TILE_WIDTH*TILE_SIZE,SCREEN_TILE_HEIGHT*TILE_SIZE);
 }
 
 bool Widget::event(QEvent *event)   {

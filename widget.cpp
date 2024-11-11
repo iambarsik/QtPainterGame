@@ -12,7 +12,6 @@
  *
  *
  *
- *
  */
 
 
@@ -167,12 +166,18 @@ void Widget::paintEvent(QPaintEvent *event) {
     //qScreen.scale(Camera.Zoom,Camera.Zoom);
 
     // draw something
-    setColor(Qt::white,Qt::white, Qt::NoBrush, &qScreen);
-    qScreen.drawRect(0,0,Resolution.x() - 1,Resolution.y() - 1);
 
-    ExampleLogo.Draw(&qScreen);
 
-    OnDrawText(Resolution.x()/4, TILE_SIZE,FONT_SIZE_MEDIUM,"Hello world!", "Здравствуй, Мир!", &qScreen);
+
+
+
+
+
+
+
+
+
+    //OnDrawText(Resolution.x()/4, TILE_SIZE,FONT_SIZE_MEDIUM,"Hello world!", "Здравствуй, Мир!", &qScreen);
 
 
 

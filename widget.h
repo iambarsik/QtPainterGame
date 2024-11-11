@@ -53,8 +53,6 @@ public:
     long long iForGame, iForAnimation;
     int dev_player;
 
-    myObject ExampleLogo;
-
         // engine methods
     // ================================================================================
     void SetStartValues();
